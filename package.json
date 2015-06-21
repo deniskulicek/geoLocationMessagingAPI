@@ -1,0 +1,23 @@
+{
+  "name": "geoLocationMessagingAPI",
+  "version": "0.0.6",
+  "private": false,
+  "author": "Denis Kulicek <denis.kulicek@gmail.com>",
+  "description": "API Server for geo messaging app",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/deniskulicek/geoLocationMessagingAPI.git"
+  },
+  "license": "MIT",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "3.5.0",
+    "mongoose": "3.8.x"
+  },
+  "subdomain": "geoLocationMessagingAPI",
+  "engines": {
+    "node": "0.10.x"
+  }
+}
